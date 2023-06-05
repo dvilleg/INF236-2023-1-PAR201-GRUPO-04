@@ -10,7 +10,7 @@ Este es el repositorio del *Grupo 4*, cuyos integrantes son:
 ## Wiki
 
 Puede acceder a la Wiki mediante el siguiente [enlace]
-* [Objetivos](https://gitlab.inf.utfsm.cl/tabata.ahumada/inf236-2023-1-par201-grupo-04/-/wikis/Objetivos)
+* [Objetivos](https://github.com/dvilleg/INF236-2023-1-PAR201-GRUPO-04/wiki/Objetivos)
 * [Actores relevantes](https://gitlab.inf.utfsm.cl/tabata.ahumada/inf236-2023-1-par201-grupo-04/-/wikis/Actores-relevantes)
 * [Diagrama de contexto](https://gitlab.inf.utfsm.cl/tabata.ahumada/inf236-2023-1-par201-grupo-04/-/wikis/Diagrama-de-contexto)
 * [Modelo de dominio](https://gitlab.inf.utfsm.cl/tabata.ahumada/inf236-2023-1-par201-grupo-04/-/wikis/Modelo-de-dominio)
