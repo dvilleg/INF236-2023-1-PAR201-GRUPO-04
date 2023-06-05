@@ -14,7 +14,7 @@ Puede acceder a la Wiki mediante el siguiente [enlace]
 * [Actores relevantes](https://github.com/dvilleg/INF236-2023-1-PAR201-GRUPO-04/wiki/Actores-relevantes)
 * [Diagrama de contexto](https://github.com/dvilleg/INF236-2023-1-PAR201-GRUPO-04/wiki/Diagrama-de-Contexto)
 * [Modelo de dominio](https://github.com/dvilleg/INF236-2023-1-PAR201-GRUPO-04/wiki/Modelo-de-dominio)
-* [Diagrama de secuencia](https://gitlab.inf.utfsm.cl/tabata.ahumada/inf236-2023-1-par201-grupo-04/-/wikis/Diagramas-de-secuencia)
+* [Diagrama de secuencia](https://github.com/dvilleg/INF236-2023-1-PAR201-GRUPO-04/wiki/Diagramas-de-secuencia)
 * [Evidencia](https://gitlab.inf.utfsm.cl/tabata.ahumada/inf236-2023-1-par201-grupo-04/-/wikis/Evidencia-de-levantamiento)
 * [Pruebas de Pantalla](https://gitlab.inf.utfsm.cl/tabata.ahumada/inf236-2023-1-par201-grupo-04/-/wikis/Prueba-de-Pantallas)
 ## Videos
