@@ -16,7 +16,7 @@ Puede acceder a la Wiki mediante el siguiente [enlace]
 * [Modelo de dominio](https://github.com/dvilleg/INF236-2023-1-PAR201-GRUPO-04/wiki/Modelo-de-dominio)
 * [Diagrama de secuencia](https://github.com/dvilleg/INF236-2023-1-PAR201-GRUPO-04/wiki/Diagramas-de-secuencia)
 * [Evidencia](https://github.com/dvilleg/INF236-2023-1-PAR201-GRUPO-04/wiki/Evidencia-de-levantamiento)
-* [Pruebas de Pantalla](https://gitlab.inf.utfsm.cl/tabata.ahumada/inf236-2023-1-par201-grupo-04/-/wikis/Prueba-de-Pantallas)
+* [Pruebas de Pantalla](https://github.com/dvilleg/INF236-2023-1-PAR201-GRUPO-04/wiki/Prueba-de-Pantallas)
 ## Videos
 
 * [Video presentación avance 1](https://youtu.be/v2L-krch6zk)
