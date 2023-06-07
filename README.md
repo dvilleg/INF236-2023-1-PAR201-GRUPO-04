@@ -17,6 +17,8 @@ Puede acceder a la Wiki mediante el siguiente [enlace]
 * [Diagrama de secuencia](https://github.com/dvilleg/INF236-2023-1-PAR201-GRUPO-04/wiki/Diagramas-de-secuencia)
 * [Evidencia](https://github.com/dvilleg/INF236-2023-1-PAR201-GRUPO-04/wiki/Evidencia-de-levantamiento)
 * [Pruebas de Pantalla](https://github.com/dvilleg/INF236-2023-1-PAR201-GRUPO-04/wiki/Prueba-de-Pantallas)
+* [Seguimiento]
+(https://github.com/dvilleg/INF236-2023-1-PAR201-GRUPO-04/wiki/Seguimiento)
 ## Videos
 
 * [Video presentación avance 1](https://youtu.be/v2L-krch6zk)
