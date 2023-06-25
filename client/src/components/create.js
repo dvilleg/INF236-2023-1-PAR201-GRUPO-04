@@ -5,7 +5,16 @@ export default function Create() {
  const [form, setForm] = useState({
    name: "",
    position: "",
+   rut: "",
+   edad: "",
+   direccion: "",
+   fecha: "",
+   acompanante: "",
    level: "",
+   diagnostico: "",
+   motivo: "",
+   ex: "",
+   trata: "",
  });
  const navigate = useNavigate();
  
@@ -35,17 +44,17 @@ export default function Create() {
      return;
    });
  
-   setForm({ name: "", position: "", level: "" });
+   setForm({ name: "", position: "", rut: "", edad: "", direccion: "", fecha: "", acompanante: "", level: "", diagnostico: "", motivo: "", ex: "", trata: "" });
    navigate("/");
  }
  
  // This following section will display the form that takes the input from the user.
  return (
    <div>
-     <h3>Create New Record</h3>
+     <h3>Crear Nueva Ficha</h3>
      <form onSubmit={onSubmit}>
-       <div className="form-group">
-         <label htmlFor="name">Name</label>
+       <div className="container">
+         <label htmlFor="name">Nombre: </label>
          <input
            type="text"
            className="form-control"
@@ -54,8 +63,8 @@ export default function Create() {
            onChange={(e) => updateForm({ name: e.target.value })}
          />
        </div>
-       <div className="form-group">
-         <label htmlFor="position">Position</label>
+       <div className="container">
+         <label htmlFor="position">Apellido: </label>
          <input
            type="text"
            className="form-control"
@@ -64,48 +73,126 @@ export default function Create() {
            onChange={(e) => updateForm({ position: e.target.value })}
          />
        </div>
-       <div className="form-group">
+       <div className="container">
+         <label htmlFor="rut">Rut: </label>
+         <input
+           type="text"
+           className="form-control"
+           id="rut"
+           value={form.rut}
+           onChange={(e) => updateForm({ rut: e.target.value })}
+         />
+       </div>
+       <div className="container">
+         <label htmlFor="edad">Edad: </label>
+         <input
+           type="text"
+           className="form-control"
+           id="edad"
+           value={form.edad}
+           onChange={(e) => updateForm({ edad: e.target.value })}
+         />
+       </div>
+       <div className="container">
+         <label htmlFor="direccion">Dirección: </label>
+         <input
+           type="text"
+           className="form-control"
+           id="direccion"
+           value={form.direccion}
+           onChange={(e) => updateForm({ direccion: e.target.value })}
+         />
+       </div>
+       <div className="container">
+         <label htmlFor="fecha">Fecha: </label>
+         <input
+           type="text"
+           className="form-control"
+           id="fecha"
+           value={form.fecha}
+           onChange={(e) => updateForm({ fecha: e.target.value })}
+         />
+       </div>
+       <div className="container">
+         <label htmlFor="acompanante">Acompañante: </label>
+         <input
+           type="text"
+           className="form-control"
+           id="acompanante"
+           value={form.acompanante}
+           onChange={(e) => updateForm({ acompanante: e.target.value })}
+         />
+       </div>
+       <div className="container">
+         <label htmlFor="motivo">Motivo Consulta: </label>
+         <input
+           type="text"
+           className="form-control"
+           id="motivo"
+           value={form.motivo}
+           onChange={(e) => updateForm({ motivo: e.target.value })}
+         />
+       </div>
+       <div className="container">
+         <label htmlFor="diagnostico">Diagnostico: </label>
+         <input
+           type="text"
+           className="form-control"
+           id="diagnostico"
+           value={form.diagnostico}
+           onChange={(e) => updateForm({ diagnostico: e.target.value })}
+         />
+       </div>
+       <div className="container">
+         <label htmlFor="ex">Examen Solicitado: </label>
+         <input
+           type="text"
+           className="form-control"
+           id="ex"
+           value={form.ex}
+           onChange={(e) => updateForm({ ex: e.target.value })}
+         />
+       </div>
+       <div className="container">
+         <label htmlFor="trata">Tratamiento e Indicaciones: </label>
+         <input
+           type="text"
+           className="form-control"
+           id="trata"
+           value={form.trata}
+           onChange={(e) => updateForm({ trata: e.target.value })}
+         />
+       </div>
+       <div className="container">
          <div className="form-check form-check-inline">
            <input
              className="form-check-input"
              type="radio"
              name="positionOptions"
-             id="positionIntern"
-             value="Intern"
-             checked={form.level === "Intern"}
+             id="positionFONASA"
+             value="FONASA"
+             checked={form.level === "FONASA"}
              onChange={(e) => updateForm({ level: e.target.value })}
            />
-           <label htmlFor="positionIntern" className="form-check-label">Intern</label>
+           <label htmlFor="positionIntern" className="form-check-label">FONASA</label>
          </div>
          <div className="form-check form-check-inline">
            <input
              className="form-check-input"
              type="radio"
              name="positionOptions"
-             id="positionJunior"
-             value="Junior"
-             checked={form.level === "Junior"}
+             id="positionISAPRE"
+             value="ISAPRE"
+             checked={form.level === "ISAPRE"}
              onChange={(e) => updateForm({ level: e.target.value })}
            />
-           <label htmlFor="positionJunior" className="form-check-label">Junior</label>
-         </div>
-         <div className="form-check form-check-inline">
-           <input
-             className="form-check-input"
-             type="radio"
-             name="positionOptions"
-             id="positionSenior"
-             value="Senior"
-             checked={form.level === "Senior"}
-             onChange={(e) => updateForm({ level: e.target.value })}
-           />
-           <label htmlFor="positionSenior" className="form-check-label">Senior</label>
+           <label htmlFor="positionJunior" className="form-check-label">ISAPRE</label>
          </div>
        </div>
-       <div className="form-group">
+       <div className="container">
          <input
            type="submit"
-           value="Create person"
+           value="Crear Ficha"
            className="btn btn-primary"
          />
        </div>
