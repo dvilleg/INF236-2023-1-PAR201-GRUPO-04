@@ -5,15 +5,16 @@ const Record = (props) => (
  <tr>
    <td>{props.record.name}</td>
    <td>{props.record.position}</td>
-   <td>{props.record.level}</td>
+   <td>{props.record.rut}</td>
+   <td>{props.record.fecha}</td>
    <td>
-     <Link className="btn btn-link" to={`/edit/${props.record._id}`}>Edit</Link> |
+     <Link className="btn btn-link" to={`/edit/${props.record._id}`}>Ver Datos y Editar</Link> |
      <button className="btn btn-link"
        onClick={() => {
          props.deleteRecord(props.record._id);
        }}
      >
-       Delete
+       Borrar Ficha
      </button>
    </td>
  </tr>
@@ -68,14 +69,15 @@ export default function RecordList() {
  // This following section will display the table with the records of individuals.
  return (
    <div>
-     <h3>Record List</h3>
+     <h3>Fichas Pacientes</h3>
      <table className="table table-striped" style={{ marginTop: 20 }}>
        <thead>
          <tr>
-           <th>Name</th>
-           <th>Position</th>
-           <th>Level</th>
-           <th>Action</th>
+           <th>Nombre</th>
+           <th>Apellido</th>
+           <th>RUT</th>
+           <th>Fecha</th>
+           <th>Accion</th>
          </tr>
        </thead>
        <tbody>{recordList()}</tbody>
