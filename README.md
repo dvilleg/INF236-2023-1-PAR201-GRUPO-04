@@ -18,7 +18,7 @@ Puede acceder a la Wiki mediante el siguiente [enlace]
 * [Evidencia](https://github.com/dvilleg/INF236-2023-1-PAR201-GRUPO-04/wiki/Evidencia-de-levantamiento)
 * [Pruebas de Pantalla](https://github.com/dvilleg/INF236-2023-1-PAR201-GRUPO-04/wiki/Prueba-de-Pantallas)
 * [Seguimiento](https://github.com/dvilleg/INF236-2023-1-PAR201-GRUPO-04/wiki/Seguimiento)
-* [Calificación](https://github.com/dvilleg/INF236-2023-1-PAR201-GRUPO-04/wiki/Calificaci%C3%B3n-proyecto)
+* [Calificación proyecto](https://github.com/dvilleg/INF236-2023-1-PAR201-GRUPO-04/wiki/Calificaci%C3%B3n-proyecto)
 ## Videos
 
 * [Video presentación avance 1](https://youtu.be/v2L-krch6zk)
