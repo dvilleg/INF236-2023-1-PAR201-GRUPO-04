@@ -153,7 +153,7 @@ export default function Edit() {
            type="text"
            className="form-control"
            id="acompanante"
-           value={form.fecha}
+           value={form.acompanante}
            onChange={(e) => updateForm({ acompanante: e.target.value })}
          />
        </div>
@@ -163,7 +163,7 @@ export default function Edit() {
            type="text"
            className="form-control"
            id="motivo"
-           value={form.diagnostico}
+           value={form.motivo}
            onChange={(e) => updateForm({ motivo: e.target.value })}
          />
        </div>
