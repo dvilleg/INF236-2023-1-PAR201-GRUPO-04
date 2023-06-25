@@ -22,7 +22,7 @@ Puede acceder a la Wiki mediante el siguiente [enlace]
 ## Videos
 
 * [Video presentación avance 1](https://youtu.be/v2L-krch6zk)
-* [Video Entrega H6-7](enlace)
+* [Video Entrega H6-7](https://drive.google.com/drive/folders/16YigbdqF0a57aY1EgKqz6HLNJGKBzgHF?usp=sharing)
 
 ## Aspectos técnicos relevantes
 
